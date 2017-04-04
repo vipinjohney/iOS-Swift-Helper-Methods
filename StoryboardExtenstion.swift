@@ -25,7 +25,7 @@ extension UIStoryboard {
     }
     
     
-    // This creates an object of the UIViewController inside the storyboard and type casted to the controller class
+    // This creates an object of the CenterViewController inside the storyboard and type casted to CenterViewController class
     // Usage::  let centerViewController: CenterViewController = UIStoryboard.centerViewController()
     //
     class func centerViewController() -> CenterViewController? {
