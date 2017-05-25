@@ -1,2 +1,2 @@
-# iOS-Swift-Helper-Methods
-Code snippets I used for various functionalities of iOS in Swift
+# iOS-Swift-Helper
+Swift Code snippets I used in various projects of iOS
