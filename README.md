@@ -19,8 +19,8 @@ Swift Code snippets I used in various projects of iOS
 
 * Select Scheme and click 'Edit Scheme'
 	> 1 . In 'Run' change the Build Configuration to **'Release'**
-	> 2 . In 'Archive' change the Build Configuration to **'Release'**
-	> 3 . Close the edit window
+	2 . In 'Archive' change the Build Configuration to **'Release'**
+	3 . Close the edit window
 
 * BitcureVMR > Project > 'BitcureVMR' > Build Settings 
 	> Scroll down and verify the **BC_BUNDLE_VERSION** and **BC_BUNDLE_VERSION_SHORT**
