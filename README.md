@@ -9,21 +9,21 @@ Swift Code snippets I used in various projects of iOS
 ## Handling Schemes ##
 
 **The scheme BitcureVMR has three build configurations _"Release"_, _"BetaRelease"_ and _"Debug"_.**
-* **_Release_** 		- _Releasing to App Store_
-* **_BetaRelease_** 	- _Providing to testers. (In this way the tester can have both App store version and Test version)_
-* **_Debug_**			- _Developer testing_
+* **_Release_** - _Releasing to App Store_
+* **_BetaRelease_** - _Providing to testers. (In this way the tester can have both App store version and Test version)_
+* **_Debug_** - _Developer testing_
 
 
 
 ### Releasing To App Store ###
 
 * Select Scheme and click 'Edit Scheme'
-    > 1 . In 'Run' change the Build Configuration to **'Release'**
+	> 1 . In 'Run' change the Build Configuration to **'Release'**
 	> 2 . In 'Archive' change the Build Configuration to **'Release'**
 	> 3 . Close the edit window
 
 * BitcureVMR > Project > 'BitcureVMR' > Build Settings 
-    > Scroll down and verify the **BC_BUNDLE_VERSION** and **BC_BUNDLE_VERSION_SHORT**
+	> Scroll down and verify the **BC_BUNDLE_VERSION** and **BC_BUNDLE_VERSION_SHORT**
 	
 * BitcureVMR > Targets > 'BitcureVMR' > General
 	> Verify the Bundle Identifier displayed is **"com.claysys.BitcureVMR"**
@@ -38,7 +38,7 @@ Swift Code snippets I used in various projects of iOS
 	> 3 . Close the edit window
 
 * BitcureVMR > Project > 'BitcureVMR' > Build Settings 
-    > Scroll down and verify the **BC_BUNDLE_VERSION** and **BC_BUNDLE_VERSION_SHORT**
+	> Scroll down and verify the **BC_BUNDLE_VERSION** and **BC_BUNDLE_VERSION_SHORT**
 	
 * BitcureVMR > Targets > 'BitcureVMR' > General
 	>  Verify the Bundle Identifier displayed is **"com.claysys.BitcureVMRBeta"**
